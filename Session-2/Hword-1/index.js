@@ -1,0 +1,16 @@
+console.log("1. What are var and const in JavaScript?");
+console.log("- The var statement declares a function-scoped or globally-scoped variable, optionally initializing it to a value.");
+console.log("- Constants are block-scoped, much like variables declared using the let keyword. The value of a constant can't be changed through reassignment, and it can't be redeclared.") ;
+console.log("\n");
+console.log("2. What are the differences between let and var? ");
+console.log("- var declarations, wherever they occur, are processed before any code is executed. This is called hoisting, and is discussed further below.");
+console.log("- let allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope. The other difference between var and let is that the latter is initialized to a value only when a parser evaluates it.");
+console.log("\n");
+console.log("3. What are the differences between let and const?");
+console.log("- let allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope. The other difference between var and let is that the latter is initialized to a value only when a parser evaluates it.");
+console.log("- This declaration creates a constant whose scope can be either global or local to the block in which it is declared. Global constants do not become properties of the window objects.");
+console.log("\n");
+console.log("4. What to use in what cases?");
+console.log("- we use The var statement went we want to create declares a function-scoped or globally-scoped variable, optionally initializing it to a value.");
+console.log("- we use The let statement when we want to create declares a block-scoped local variable, optionally initializing it to a value.");
+console.log("- we use Constants went we want create variables block-scoped, much like variables declared using the let keyword. The value of a constant can't be changed through reassignment, and it can't be redeclared.");
