@@ -1,0 +1,58 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#signup-container{
+    margin: auto;
+    padding: 15px 30px;
+    max-width: 450px;
+    align-self: center;
+    align-content: center;
+    white-space: nowrap;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+#firstName{
+    width: 150px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    
+}
+
+#lastName{
+    width: 150px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+#email{
+    width: 367px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+#passWord{
+    width: 367px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+#confirm{
+    width: 367px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    
+}
+
+#but{
+    background-color: lightblue;
+    border: thin;
+    border-radius: 5px;
+    padding: 14px 18px;
+}
+
+#already{
+    text-align: center;
+}
