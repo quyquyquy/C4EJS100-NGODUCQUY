@@ -6,9 +6,12 @@ body{
 
 }
 #login-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     background-color: white;
     margin: auto;
-    padding: 15px 35px;
+    padding: 30px 40px;
     max-width: 200px;
     align-self: center;
     align-content: center;
@@ -16,6 +19,7 @@ body{
     border: 2px solid;
     border-radius: 10px;
    
+    
 }
 
 
