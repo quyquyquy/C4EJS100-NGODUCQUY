@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:cornflowerblue ;
 }
 
 #signup-container{
@@ -51,8 +51,11 @@ body{
     border: thin;
     border-radius: 5px;
     padding: 14px 18px;
+    display: block;
+    margin: auto;
 }
 
 #already{
-    text-align: center;
+text-align: center;
+display: block;
 }
