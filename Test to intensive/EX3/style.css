@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    padding:5px;
+}
+input{
+    padding: 5px;
+}
+.a{
+    background: red;
+    margin-bottom: -5px;
+}
