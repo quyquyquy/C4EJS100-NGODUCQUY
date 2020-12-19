@@ -1,5 +1,5 @@
-let s1= prompt(String("Nhap chuoi thu nhat"));
-let s2= prompt(String("Nhap chuoi thu hai"))
+let s1= prompt(String("Nhập chuỗi thứ nhất"));
+let s2= prompt(String("Nhập chuỗi thứ hai"))
 function merge2String(s1,s2 ) {
     let finalString = "";
     let totalLength = 0;
