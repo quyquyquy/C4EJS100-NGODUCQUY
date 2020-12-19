@@ -1,15 +1,23 @@
-const n = Number(prompt("nhập n có giá trị từ 4 đến 20"));
-const fNumber = Number(prompt("Nhập số đầu tiên"));
-
-function findOppositeNumber(n,fNumber) {
-    let x = 0;
-    if (fNumber < n/2) {
-        return x = fNumber + n/2;
-    } else if (fNumber > n/2) {
-        return x = fNumber - n/2;
-    } else {
-        return x = 0 ;
+let n = prompt('nhập vào n (4 < n < 20)');
+let x = prompt('Nhập vào số cần tìm')
+function check(){
+    if(n % 2 == 0){
+        if(n>4 && n<20){
+           if(x> (n/2)){
+            a =x ;
+            b = n/2;
+            alert( Number(a - b));
+           }
+           else if(x <(n/2)){
+            let a =+x ;
+            let b =+n/2
+            alert(a + b);
+                
+           }
+        }
+    }
+    else{
+        alert('vui lòng nhập lại số thỏa mãn điều kiện');
     }
 }
-alert(`Số cần tìm là: ${findOppositeNumber(n,fNumber)}`);
-
+console.log( check(n));
