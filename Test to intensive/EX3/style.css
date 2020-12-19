@@ -1,18 +1,31 @@
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#cont{
+    width: 500px;
+    margin:auto;
+}
+
+#luck{
     text-align: center;
-    justify-content: center;
-    align-self: center;
+    color: red;
+    background-color: black;
 }
-h3{
-    font-size: 30px;
+
+#Con{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: red;
 }
-button{
-    padding:5px;
+
+#btn:hover{
+    cursor: pointer;
 }
-input{
-    padding: 5px;
-}
-.a{
-    background: red;
-    margin-bottom: -5px;
+
+#inp:hover{
+    border: 2px solid lightblue;
 }

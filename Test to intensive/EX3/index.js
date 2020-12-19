@@ -1,18 +1,13 @@
-let num;
-let dem=0;
-let A = document.getElementById("myNumber");
-A.addEventListener('keyup',()=>{
-    return A.value;
-})
+let input=document.getElementById("inp");
+input.addEventListener('keydown',()=>{
+    return input.value;
+});
+let ran;
 let btn=document.getElementById("btn");
 btn.addEventListener('click',()=>{
-    num=Math.floor(Math.random() * 11 ); 
-    dem++;
-    if(A.value == num){
-        alert("Chọn đúng. Phần thưởng là ...");
+    ran=Math.floor(Math.random() * 11 );
+    if(input.value == ran){
+        alert("Chúc mừng bạn đã đúng");
     }
-    else alert(`Wrong. Kết quả đúng là ${num}`);
-    if(dem == 3){
-        alert(`Game over`);
-    }
+    else alert(`Rất tiếc bạn đã chọn sai, số đúng này: ${ran}`);
 })

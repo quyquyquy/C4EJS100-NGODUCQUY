@@ -1,27 +1,15 @@
-let n = prompt('nhap n (4 < n < 20)');
-let x = prompt('nhap vao so can tim so doi dien')
-let sum ;
-d = n/2;
-function check(){
-    if(n % 2 == 0){
-        if(n>4 && n<20){
-           if(x> (n/2)){
-            a =x ;
-            b = n/2;
-            alert( Number(a - b));
-           }
-           else if(x <(n/2)){
-            let a =+x ;
-            let b =+n/2
-            alert(a + b);
-                
-           }
-        }
-    }
-    else{
-        alert("Hay nhap so chan trong khoang tu 4 den 20");
-        let n = prompt('nhap n (4 < n < 20)');
-        
+const n = Number(prompt("nhập n có giá trị từ 4 đến 20"));
+const fNumber = Number(prompt("Nhập số đầu tiên"));
+
+function findOppositeNumber(n,fNumber) {
+    let x = 0;
+    if (fNumber < n/2) {
+        return x = fNumber + n/2;
+    } else if (fNumber > n/2) {
+        return x = fNumber - n/2;
+    } else {
+        return x = 0 ;
     }
 }
-console.log( check(n));
+alert(`Số cần tìm là: ${findOppositeNumber(n,fNumber)}`);
+
